@@ -1,0 +1,7 @@
+Senha admin zombieplus
+   admin@zombieplus.com
+   pwd123
+
+Instalar biblioteca do banco de dados, dentro do projeto com o playwright
+   /c/Java/QAX/projects/zombieplus
+      npm i pg --save --dev
