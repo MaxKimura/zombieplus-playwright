@@ -1,13 +1,15 @@
+require('dotenv').config()
+
 import { log } from 'console'
 
 const { Pool } = require('pg')
 
 const DbConfig = {
-    user: 'kfzeowhf',
-    host: 'isabelle.db.elephantsql.com',
-    database: 'kfzeowhf',
-    password: '1cHLKFqATJNuF7hUDY70d2y87bIBU24h',
-    port: 5432
+    user: process.env.DB_USER,
+    host: process.env.DB_HOST,
+    database: process.env.DB_NAME,
+    password: process.env.DB_PASSWORD,
+    port: process.env.DB_PORT
 }
 
 export async function executeSQL(sqlScript) {

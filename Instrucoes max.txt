@@ -5,3 +5,6 @@ Senha admin zombieplus
 Instalar biblioteca do banco de dados, dentro do projeto com o playwright
    /c/Java/QAX/projects/zombieplus
       npm i pg --save --dev
+
+
+Rever aula modulo 5 - 8 pbtendo session token, 9 e 10
